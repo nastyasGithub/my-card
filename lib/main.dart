@@ -11,9 +11,9 @@ class MiProject extends StatelessWidget {
       home: Scaffold(
         backgroundColor: Colors.purple[300],
         body: SafeArea(
-            child: Column(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: <Widget>[
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: <Widget>[
               CircleAvatar(
                 radius: 50.0,
                 backgroundImage: AssetImage('images/nastya.png'),
@@ -69,7 +69,9 @@ class MiProject extends StatelessWidget {
                   ),
                 ),
               ),
-            ])),
+            ],
+          ),
+        ),
       ),
     );
   }
